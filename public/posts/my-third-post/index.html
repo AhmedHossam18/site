@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
 <title>React&#39;s useEffect hook | Omar Shabana</title>
-<meta name="keywords" content="web dev, react">
+<meta name="keywords" content="Web Dev, React">
 <meta name="description" content="React&rsquo;s useEffect hook is a powerful tool for managing side effects in functional components. It allows you to perform tasks like data fetching, subscriptions, or manual DOM manipulations after the component has rendered.
 Basic Syntax
 The useEffect hook accepts two arguments: a function for the effect and an optional array of dependencies.
@@ -158,7 +158,7 @@ The way useEffect triggers depends on the dependency array provided:">
 <li><strong>Empty array (<code>[]</code>)</strong>: The effect runs only once, immediately after the initial mount.</li>
 <li><strong>Array with values</strong>: The effect runs on mount and whenever any of the values in the array change.</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span>, { <span style="color:#a6e22e">useState</span>, <span style="color:#a6e22e">useEffect</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-jsx" data-lang="jsx"><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span>, { <span style="color:#a6e22e">useState</span>, <span style="color:#a6e22e">useEffect</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">Example</span>() {
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">count</span>, <span style="color:#a6e22e">setCount</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">useState</span>(<span style="color:#ae81ff">0</span>);
@@ -168,10 +168,10 @@ The way useEffect triggers depends on the dependency array provided:">
 </span></span><span style="display:flex;"><span>  }, [<span style="color:#a6e22e">count</span>]); <span style="color:#75715e">// Only re-run the effect if count changes
 </span></span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> (
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">p</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">You</span> <span style="color:#a6e22e">clicked</span> {<span style="color:#a6e22e">count</span>} <span style="color:#a6e22e">times</span><span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/p&gt;</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">button</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span>{() =&gt; <span style="color:#a6e22e">setCount</span>(<span style="color:#a6e22e">count</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>)}<span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Click</span> <span style="color:#a6e22e">me</span><span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/button&gt;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">p</span>&gt;<span style="color:#a6e22e">You</span> <span style="color:#a6e22e">clicked</span> {<span style="color:#a6e22e">count</span>} <span style="color:#a6e22e">times</span>&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span>{() =&gt; <span style="color:#a6e22e">setCount</span>(<span style="color:#a6e22e">count</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>)}&gt;<span style="color:#a6e22e">Click</span> <span style="color:#a6e22e">me</span>&lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">div</span>&gt;
 </span></span><span style="display:flex;"><span>  );
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h3 id="cleanup-functions">Cleanup Functions<a hidden class="anchor" aria-hidden="true" href="#cleanup-functions">#</a></h3>
@@ -214,7 +214,7 @@ The way useEffect triggers depends on the dependency array provided:">
 <ul class="share-buttons">
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share React&#39;s useEffect hook on x"
-            href="https://x.com/intent/tweet/?text=React%27s%20useEffect%20hook&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fmy-third-post%2f&amp;hashtags=webdev%2creact">
+            href="https://x.com/intent/tweet/?text=React%27s%20useEffect%20hook&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fmy-third-post%2f&amp;hashtags=WebDev%2cReact">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />

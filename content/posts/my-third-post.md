@@ -3,7 +3,7 @@ date: '2026-03-18T23:53:55+02:00'
 draft: false
 title: "React's useEffect hook"
 author: "Omar Shabana"
-tags: ["web dev", "react"]
+tags: ["Web Dev", "React"]
 ---
 
 React's `useEffect` hook is a powerful tool for managing side effects in functional components. It allows you to perform tasks like data fetching, subscriptions, or manual DOM manipulations after the component has rendered.
@@ -26,7 +26,7 @@ The way `useEffect` triggers depends on the dependency array provided:
 2. **Empty array (`[]`)**: The effect runs only once, immediately after the initial mount.
 3. **Array with values**: The effect runs on mount and whenever any of the values in the array change.
 
-```javascript
+```jsx
 import React, { useState, useEffect } from 'react';
 
 function Example() {

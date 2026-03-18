@@ -27,7 +27,9 @@
       <link>http://localhost:1313/posts/my-second-post/</link>
       <pubDate>Wed, 18 Mar 2026 23:51:59 +0200</pubDate>
       <guid>http://localhost:1313/posts/my-second-post/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;the-syntax-of-discovery-my-journey-into-web-development&#34;&gt;The Syntax of Discovery: My Journey into Web Development&lt;/h1&gt;
+&lt;h2 id=&#34;the-first-pixel&#34;&gt;The First Pixel&lt;/h2&gt;
+&lt;p&gt;The journey didn&amp;rsquo;t start in a classroom or a high-tech lab; it started in a messy bedroom with a cheap laptop and a sudden, burning curiosity about how the &amp;ldquo;Inspect Element&amp;rdquo; tool actually worked. I remember the visceral thrill of changing a background color from white to &lt;code&gt;#ff0000&lt;/code&gt; (an aggressive, eye-searing red) and realizing that the internet wasn&amp;rsquo;t some immutable monolith. It was a construction site, and I had just found a hammer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>

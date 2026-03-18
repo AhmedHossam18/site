@@ -15,11 +15,11 @@ params:
     appendFilePath: true # to append file path to Edit link
 
   homeInfoParams:
-    Title: Hi there!
+    Title: Hi there! 👋
     Content: My name is Omar. I'm a Software Engineer from Egypt. I'm interested in web, mobile development and ML/AI.
 
   socialIcons: # optional
     - name: "github"
-      url: "https://github.com/omarshabana"
+      url: "https://github.com/Mirohhh"
     - name: "linkedin"
       url: "https://www.linkedin.com/in/omarshabana/"
