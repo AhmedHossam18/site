@@ -28,7 +28,7 @@ params:
   ShowAllPagesInArchive: true
   ShowPageNums: true
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/Mirohhh/site/blob/master/content/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
