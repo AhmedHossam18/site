@@ -1,4 +1,4 @@
-# Omar Shabana's Personal Blog
+# My Personal Blog
 
 A personal blog built with [Hugo](https://gohugo.io/) and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme. Posts cover software engineering topics including web development, React, and ML/AI.
 
