@@ -1,7 +1,7 @@
 ---
 date: '2026-03-18T23:51:59+02:00'
 draft: false
-title: 'The Syntax of Discovery: My Journey into Web Development'
+title: 'My Journey into Web Development'
 author: "Me"
 tags: ["Personal"]
 ---
