@@ -1,14 +1,10 @@
 ---
 date: '2026-03-18T23:51:59+02:00'
 draft: false
-title: 'My Second Post'
+title: 'My Journey into Web Development'
 author: "Me"
 tags: ["Personal"]
 ---
-
-# The Syntax of Discovery: My Journey into Web Development
-
-## The First Pixel
 
 The journey didn't start in a classroom or a high-tech lab; it started in a messy bedroom with a cheap laptop and a sudden, burning curiosity about how the "Inspect Element" tool actually worked. I remember the visceral thrill of changing a background color from white to `#ff0000` (an aggressive, eye-searing red) and realizing that the internet wasn't some immutable monolith. It was a construction site, and I had just found a hammer.
 
